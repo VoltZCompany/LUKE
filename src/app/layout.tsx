@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Background from '@/src/components/Background'
 
 export const metadata: Metadata = {
   title: 'Grimório Umbanda',
@@ -21,8 +22,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-[#0d0626] min-h-screen overflow-x-hidden">
-        {children}
+      <body className="min-h-screen overflow-x-hidden">
+        <Background />
+        <div style={{ position: 'relative', zIndex: 10 }}>
+          {children}
+        </div>
       </body>
     </html>
   )
