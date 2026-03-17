@@ -97,6 +97,7 @@ export default function SplashPage() {
                   { href: '/cantigas', icon: '🎵', label: 'Cantigas', sublabel: 'Pontos & Orações', gradient: 'from-blue-900/60 to-blue-700/40', border: 'border-blue-500/30', glow: 'hover:shadow-blue-500/20' },
                   { href: '/orixas', icon: '⭐', label: 'Orixás', sublabel: 'Divindades', gradient: 'from-yellow-900/60 to-yellow-700/40', border: 'border-yellow-500/30', glow: 'hover:shadow-yellow-500/20' },
                   { href: '/conhecimentos', icon: '📚', label: 'Saber', sublabel: 'Conhecimentos', gradient: 'from-green-900/60 to-teal-700/40', border: 'border-green-500/30', glow: 'hover:shadow-green-500/20' },
+                  { href: '/debate', icon: '⚡', label: 'Debate', sublabel: 'Multi-Agente', gradient: 'from-orange-900/60 to-red-700/40', border: 'border-orange-500/30', glow: 'hover:shadow-orange-500/20' },
                 ].map((item, i) => (
                   <motion.div
                     key={item.href}
